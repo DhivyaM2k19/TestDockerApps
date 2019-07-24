@@ -3,7 +3,7 @@ FROM java:8
 MAINTAINER 22dhivya77@gmail.com
 
 ENV MULE_HOME /opt/mule
-ENV MULE_VERSION 3.9.2
+ENV MULE_VERSION 3.9.0
 
 RUN set -x \&&cd /opt\&&curl -o mule.zip 
 https://repository.mulesoft.org/nexus/conten/repositories/release/org/mule/distributions/mule-standalone/$MULE_VERSION/mule-standalone-$MULE_VERSION.zip\&&unzipmule.zip\&&mv mule-standalone-$MULE-VERSION mule&&rm mule.zip*
