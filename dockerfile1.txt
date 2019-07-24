@@ -1,0 +1,4 @@
+FROM doctest
+ADD  doctest.zip
+$MULE_HOME /apps
+EXPOSE 8585:8585
